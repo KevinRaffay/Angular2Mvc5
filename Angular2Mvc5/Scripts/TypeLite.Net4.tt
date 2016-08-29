@@ -12,7 +12,8 @@
 
 <# var ts = TypeScript.Definitions()
 		.WithReference("Enums.ts")
-		.ForLoadedAssemblies();
+		.For<Models.List>()
+		.For<Models.ViewModel.JSONReturnVM<object>>();
 #>
 
 <#= ts.Generate(TsGeneratorOutput.Properties) #>
