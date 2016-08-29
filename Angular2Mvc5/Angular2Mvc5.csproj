@@ -115,6 +115,7 @@
     <Content Include="packages.config" />
     <Content Include="Scripts\Manager.ttinclude" />
     <Content Include="package.json" />
+    <Content Include="systemjs.config.js" />
     <Content Include="tsconfig.json" />
     <Content Include="typings.json" />
     <None Include="Web.Debug.config">
@@ -149,6 +150,10 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="app\app.component.spec.ts" />
+    <TypeScriptCompile Include="app\app.component.ts" />
+    <TypeScriptCompile Include="app\app.module.ts" />
+    <TypeScriptCompile Include="app\main.ts" />
     <TypeScriptCompile Include="Scripts\Enums.ts">
       <DependentUpon>TypeLite.Net4.tt</DependentUpon>
     </TypeScriptCompile>
@@ -158,9 +163,7 @@
       <DependentUpon>TypeLite.Net4.tt</DependentUpon>
     </TypeScriptCompile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="app\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
