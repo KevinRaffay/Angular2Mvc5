@@ -8,7 +8,7 @@ Web Extensions Pack
 2.  New Project - ASP.NET Application: C:\Source\Repos
 3.  Create directory for solution, Add to Source Control
 4.  ASP.NET 4.5.2 Templates: Empty
-5.  
+5.  Publish to GitHub
 
 
 https://jjasonclark.com/how-to-setup-node-behind-web-proxy
